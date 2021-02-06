@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"csb/budget/model/models"
+	"csb/budget_pwa/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("csb.budget.Component", {
+	return UIComponent.extend("csb.budget_pwa.Component", {
 
 		metadata: {
 			manifest: "json"

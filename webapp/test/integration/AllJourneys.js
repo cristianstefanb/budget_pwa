@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "csb.budget.view.",
+		viewNamespace: "csb.budget_pwa.view.",
 		autoWait: true
 	});
 });

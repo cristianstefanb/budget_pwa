@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"csb/budget/controller/App.controller"
+	"csb/budget_pwa/controller/App.controller"
 ], function (Controller) {
 	"use strict";
 

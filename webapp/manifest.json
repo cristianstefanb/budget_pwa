@@ -1,7 +1,7 @@
 {
 	"_version": "1.12.0",
 	"sap.app": {
-		"id": "csb.budget",
+		"id": "csb.budget_pwa",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -33,7 +33,7 @@
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
-			"viewName": "csb.budget.view.App",
+			"viewName": "csb.budget_pwa.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "App"
@@ -54,7 +54,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "csb.budget.i18n.i18n"
+					"bundleName": "csb.budget_pwa.i18n.i18n"
 				}
 			}
 		},
@@ -70,7 +70,7 @@
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"async": true,
-				"viewPath": "csb.budget.view",
+				"viewPath": "csb.budget_pwa.view",
 				"controlAggregation": "pages",
 				"controlId": "app",
 				"clearControlAggregation": false

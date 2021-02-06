@@ -1,6 +1,6 @@
 specVersion: '1.0'
 metadata:
-  name: budget
+  name: budget_pwa
 type: application
 resources:
   configuration:

@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function () {
 	"use strict";
 
 	sap.ui.require([
-		"csb/budget/test/unit/AllTests"
+		"csb/budget_pwa/test/unit/AllTests"
 	], function () {
 		QUnit.start();
 	});

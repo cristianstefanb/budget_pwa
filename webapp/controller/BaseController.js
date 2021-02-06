@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("csb.budget.controller.BaseController", {
+	return Controller.extend("csb.budget_pwa.controller.BaseController", {
 
 
 	});
